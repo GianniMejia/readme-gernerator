@@ -31,9 +31,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    console.log(`creating ${fileName}`); 
+    console.log(`creating ${fileName}, ${data}`);
 
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), err =>
+    fs.writeFile(fileName, data, err =>
         err ? console.log(err) : console.log('Generated readme file sucessfully!')
     );
 }
@@ -45,11 +45,11 @@ function init() {
     inquirer.prompt(questions).then(response => {
         console.log(response);
         //REDME format friendy 
-        let data = generateMarkdown(response);
-        console.log("Converted int o README format ", data);
+        let readmeFormat = generateMarkdown(response);
+        // console.log("Converted into README format ", data);
 
-        //generate your reame.md file 
-        writeToFile("README.md", data); 
+        //generate your readme.md file 
+        writeToFile("README.md", readmeFormat);
     })
 }
 
