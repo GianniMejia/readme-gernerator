@@ -18,7 +18,7 @@
 
   ## Usage
   Screenshot of the project 
-![Screenshot]()
+![Screenshot](https://github.com/GianniMejia/readme-gernerator/blob/main/assets/images/Screen%20Shot%202022-06-26%20at%203.51.45%20PM.png?raw=true)s
 
   ## How to Contribute 
   N/A
