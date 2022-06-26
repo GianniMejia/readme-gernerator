@@ -17,7 +17,8 @@
   npm install
 
   ## Usage
-  
+  Screenshot of the project 
+![Screenshot]()
 
   ## How to Contribute 
   N/A
