@@ -31,3 +31,12 @@
 
   * Reach me with additional questions at Giannimejia12@yahoo.com
   * Github Link : https://github.com/GianniMejia
+
+
+Repo - https://github.com/GianniMejia/readme-gernerator
+
+Deployed Site - https://giannimejia.github.io/readme-gernerator/
+
+Screencastify - 
+
+https://watch.screencastify.com/v/MHPDy7EovGva7CLW78nq
